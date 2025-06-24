@@ -1,0 +1,8 @@
+﻿  Player.cpp
+C:\Users\julia\Documents\GitHub\C---1-\C++ 1\Character.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Player.cpp')
+  
+C:\Users\julia\Documents\GitHub\C---1-\C++ 1\Character.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Player.cpp')
+  
+LINK : fatal error LNK1168: cannot open C:\Users\julia\Documents\GitHub\C---1-\x64\Debug\C++ 1.exe for writing
