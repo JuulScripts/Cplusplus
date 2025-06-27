@@ -1,5 +1,6 @@
 #include "Character.h"
 #include "AttackTypes.h" 
+#include "Enemy.h"
 #pragma once
 class Player : public Character {
 public:
@@ -8,10 +9,12 @@ public:
     bool hasDied;
     int battlesFought;
     int battlesWon;
-
-    Player(std::string name, int health, std::vector<Attack> attacks, AttackTypes::Type weakness);
-    void PickAttack();
+    void die() override;
+    Player(int health);
+    bool PickAttack(Enemy& enemy);
     void updateLevel();
+private:
+    int choise;
 };
 
 

@@ -27,7 +27,7 @@ std::vector<std::string> Attack::names = {
 };
 
 Attack::Attack() {
-	srand(time(nullptr));
+	
 	getRandomAttackType();
 	baseDamage = rand() % 20;
     name = names[std::rand() % Attack::names.size()];
